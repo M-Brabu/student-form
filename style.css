@@ -1,0 +1,28 @@
+
+        h1{
+            font-family: cursive;
+        }
+        p{
+             font-family: cursive;
+        }
+        fieldset{
+            border-radius: 25px;
+            background-color: rgb(221, 0, 255);
+        }
+        input{
+            border-radius: 25px;
+             font-family: cursive;
+        }
+        button{
+            border-radius: 25px;
+             font-family: cursive;
+             background-color:pink;
+        }
+        tr:hover{
+            background-color: rgb(98, 255, 0);
+        }
+  #del{
+    background-color: red;
+    font-family: cursive;
+
+  }

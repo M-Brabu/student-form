@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT FORM</title>
+    <link rel="stylesheet" href="student-form-css.css">
+</head>
+<body>
+    <center>
+    <fieldset><h1>STUDENT FORM</h1></fieldset><br>
+    <fieldset>
+    <p>NAME:</p><input id="name">
+    <p>AGE:</p><input type="number" id="age">
+    <p>COURSE:</p><input id="course">
+    <p>EMAIL:</p><input type="email" id="email">
+    <br><br>
+
+    <fieldset><center><button id="save" type="submit" onclick="info()">save</button></center></fieldset><br>
+    </fieldset>
+    <br>
+    <fieldset>
+    <div id="tablediv">
+    <table border="1">
+        <thead> 
+            <th>name</th>
+            <th>age</th>
+            <th>course</th>
+            <th>email</th>
+            <th>remove</th>
+        </thead>
+        <tbody id="tbody">
+           
+            
+        </tbody>
+    </table>
+    </div>
+    </fieldset>
+</center>
+<script src="student-form-script.js"></script>
+</body>
+</html>
